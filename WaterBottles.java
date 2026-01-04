@@ -5,7 +5,7 @@ public class WaterBottles {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int numBottles = 15; 
-		int numExchange = 4;
+		int numExchange = 5;
 		System.out.println(numberOfWaterBottles(numBottles, numExchange));
 
 	}
