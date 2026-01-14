@@ -17,6 +17,9 @@ public class Search2DMatrixII {
 	}
 	
 	public static boolean search(int[][] arr, int key) {
+		if (arr.length == 0 || arr[0].length == 0) {
+		    return false;
+		}
 		int n= arr.length;
 		int m = arr[0].length;
 		
