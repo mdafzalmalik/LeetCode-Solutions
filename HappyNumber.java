@@ -5,12 +5,13 @@ public class HappyNumber {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int n = 19;
-		System.out.println(isHappy(n));
+		System.out.println(isHappyNo(n));
 
 	}
 	
-	public static boolean isHappy(int n) {
+	public static boolean isHappyNo(int n) {
 		while(n != 1 && n != 4) {
+			// 4 is smallest unhappy no
 			n = getSumOfSquares(n);
 		}
 		return n == 1;
